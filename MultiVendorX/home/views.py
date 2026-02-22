@@ -3,4 +3,11 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 class HomeView(TemplateView):
-    template_name = 'home/home.html'
+    template_name = 'home.html'
+
+
+class cartView(TemplateView):
+    template_name = 'cart.html'
+
+class storeView(TemplateView):
+    template_name = 'store.html'
